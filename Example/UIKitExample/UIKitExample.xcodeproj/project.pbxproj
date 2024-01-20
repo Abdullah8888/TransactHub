@@ -13,7 +13,23 @@
 		B825BC9F2B5BD4B800B47C1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B825BC9D2B5BD4B800B47C1A /* Main.storyboard */; };
 		B825BCA12B5BD4B900B47C1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B825BCA02B5BD4B900B47C1A /* Assets.xcassets */; };
 		B825BCA42B5BD4B900B47C1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B825BCA22B5BD4B900B47C1A /* LaunchScreen.storyboard */; };
+		B825BCE32B5BDFC100B47C1A /* TransactHubSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B825BCE22B5BDFC100B47C1A /* TransactHubSDK.framework */; };
+		B825BCE42B5BDFC100B47C1A /* TransactHubSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B825BCE22B5BDFC100B47C1A /* TransactHubSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B825BCE52B5BDFC100B47C1A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B825BCE42B5BDFC100B47C1A /* TransactHubSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B825BC942B5BD4B700B47C1A /* UIKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +40,7 @@
 		B825BCA02B5BD4B900B47C1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B825BCA32B5BD4B900B47C1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B825BCA52B5BD4B900B47C1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B825BCE22B5BDFC100B47C1A /* TransactHubSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TransactHubSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B825BCE32B5BDFC100B47C1A /* TransactHubSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +60,7 @@
 			children = (
 				B825BC962B5BD4B700B47C1A /* UIKitExample */,
 				B825BC952B5BD4B700B47C1A /* Products */,
+				B825BCE12B5BDFC100B47C1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +86,14 @@
 			path = UIKitExample;
 			sourceTree = "<group>";
 		};
+		B825BCE12B5BDFC100B47C1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B825BCE22B5BDFC100B47C1A /* TransactHubSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +104,7 @@
 				B825BC902B5BD4B700B47C1A /* Sources */,
 				B825BC912B5BD4B700B47C1A /* Frameworks */,
 				B825BC922B5BD4B700B47C1A /* Resources */,
+				B825BCE52B5BDFC100B47C1A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

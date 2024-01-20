@@ -12,6 +12,12 @@
 		B825BBEC2B5BCD9500B47C1A /* TransactHubSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825BBEB2B5BCD9500B47C1A /* TransactHubSDKTests.swift */; };
 		B825BBED2B5BCD9500B47C1A /* TransactHubSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = B825BBDF2B5BCD9500B47C1A /* TransactHubSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B825BC5F2B5BD23900B47C1A /* TransactHubSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825BC5E2B5BD23900B47C1A /* TransactHubSDK.swift */; };
+		B825BCD22B5BD64C00B47C1A /* TransactHubConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825BCD12B5BD64C00B47C1A /* TransactHubConfig.swift */; };
+		B825BCD42B5BD6D700B47C1A /* TransactHubCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825BCD32B5BD6D700B47C1A /* TransactHubCallback.swift */; };
+		B825BCD92B5BD7E700B47C1A /* TransactHubStepOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825BCD82B5BD7E700B47C1A /* TransactHubStepOne.swift */; };
+		B825BCDB2B5BD84B00B47C1A /* TransactHubStepTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825BCDA2B5BD84B00B47C1A /* TransactHubStepTwo.swift */; };
+		B825BCDD2B5BD85600B47C1A /* TransactHubStepThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825BCDC2B5BD85600B47C1A /* TransactHubStepThree.swift */; };
+		B825BCE02B5BDB5A00B47C1A /* TransactHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825BCDF2B5BDB5A00B47C1A /* TransactHubView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		B825BC5E2B5BD23900B47C1A /* TransactHubSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactHubSDK.swift; sourceTree = "<group>"; };
 		B825BCAB2B5BD4B900B47C1A /* UIKitExample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIKitExample.xcodeproj; path = Example/UIKitExample/UIKitExample.xcodeproj; sourceTree = "<group>"; };
 		B825BCCB2B5BD4E600B47C1A /* SwiftUIExample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftUIExample.xcodeproj; path = Example/SwiftUIExample/SwiftUIExample.xcodeproj; sourceTree = "<group>"; };
+		B825BCD12B5BD64C00B47C1A /* TransactHubConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactHubConfig.swift; sourceTree = "<group>"; };
+		B825BCD32B5BD6D700B47C1A /* TransactHubCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactHubCallback.swift; sourceTree = "<group>"; };
+		B825BCD82B5BD7E700B47C1A /* TransactHubStepOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactHubStepOne.swift; sourceTree = "<group>"; };
+		B825BCDA2B5BD84B00B47C1A /* TransactHubStepTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactHubStepTwo.swift; sourceTree = "<group>"; };
+		B825BCDC2B5BD85600B47C1A /* TransactHubStepThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactHubStepThree.swift; sourceTree = "<group>"; };
+		B825BCDF2B5BDB5A00B47C1A /* TransactHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactHubView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +103,10 @@
 		B825BBDE2B5BCD9500B47C1A /* TransactHubSDK */ = {
 			isa = PBXGroup;
 			children = (
+				B825BCDE2B5BDB2D00B47C1A /* BridgeFiles */,
+				B825BCD72B5BD7BA00B47C1A /* UI */,
+				B825BCD62B5BD6EE00B47C1A /* Callbacks */,
+				B825BCD52B5BD6DE00B47C1A /* Configs */,
 				B825BBDF2B5BCD9500B47C1A /* TransactHubSDK.h */,
 				B825BBE02B5BCD9500B47C1A /* TransactHubSDK.docc */,
 				B825BC5E2B5BD23900B47C1A /* TransactHubSDK.swift */,
@@ -120,6 +136,40 @@
 				B825BCD02B5BD4E700B47C1A /* SwiftUIExample.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B825BCD52B5BD6DE00B47C1A /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				B825BCD12B5BD64C00B47C1A /* TransactHubConfig.swift */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		B825BCD62B5BD6EE00B47C1A /* Callbacks */ = {
+			isa = PBXGroup;
+			children = (
+				B825BCD32B5BD6D700B47C1A /* TransactHubCallback.swift */,
+			);
+			path = Callbacks;
+			sourceTree = "<group>";
+		};
+		B825BCD72B5BD7BA00B47C1A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B825BCD82B5BD7E700B47C1A /* TransactHubStepOne.swift */,
+				B825BCDA2B5BD84B00B47C1A /* TransactHubStepTwo.swift */,
+				B825BCDC2B5BD85600B47C1A /* TransactHubStepThree.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B825BCDE2B5BDB2D00B47C1A /* BridgeFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B825BCDF2B5BDB5A00B47C1A /* TransactHubView.swift */,
+			);
+			path = BridgeFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +308,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B825BCD42B5BD6D700B47C1A /* TransactHubCallback.swift in Sources */,
+				B825BCD22B5BD64C00B47C1A /* TransactHubConfig.swift in Sources */,
+				B825BCDB2B5BD84B00B47C1A /* TransactHubStepTwo.swift in Sources */,
+				B825BCE02B5BDB5A00B47C1A /* TransactHubView.swift in Sources */,
 				B825BC5F2B5BD23900B47C1A /* TransactHubSDK.swift in Sources */,
+				B825BCD92B5BD7E700B47C1A /* TransactHubStepOne.swift in Sources */,
 				B825BBE12B5BCD9500B47C1A /* TransactHubSDK.docc in Sources */,
+				B825BCDD2B5BD85600B47C1A /* TransactHubStepThree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
