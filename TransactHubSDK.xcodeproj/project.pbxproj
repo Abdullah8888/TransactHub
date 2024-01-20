@@ -11,6 +11,7 @@
 		B825BBE72B5BCD9500B47C1A /* TransactHubSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B825BBDC2B5BCD9500B47C1A /* TransactHubSDK.framework */; };
 		B825BBEC2B5BCD9500B47C1A /* TransactHubSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825BBEB2B5BCD9500B47C1A /* TransactHubSDKTests.swift */; };
 		B825BBED2B5BCD9500B47C1A /* TransactHubSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = B825BBDF2B5BCD9500B47C1A /* TransactHubSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B825BC5F2B5BD23900B47C1A /* TransactHubSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825BC5E2B5BD23900B47C1A /* TransactHubSDK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,6 +22,20 @@
 			remoteGlobalIDString = B825BBDB2B5BCD9500B47C1A;
 			remoteInfo = TransactHubSDK;
 		};
+		B825BC3A2B5BD14200B47C1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B825BC362B5BD14100B47C1A /* UIKitExampleApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B825BC1F2B5BD14000B47C1A;
+			remoteInfo = UIKitExampleApp;
+		};
+		B825BC5B2B5BD1F300B47C1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B825BC572B5BD1F200B47C1A /* SwiftUIExampleApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B825BC462B5BD1F000B47C1A;
+			remoteInfo = SwiftUIExampleApp;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +44,9 @@
 		B825BBE02B5BCD9500B47C1A /* TransactHubSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TransactHubSDK.docc; sourceTree = "<group>"; };
 		B825BBE62B5BCD9500B47C1A /* TransactHubSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransactHubSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B825BBEB2B5BCD9500B47C1A /* TransactHubSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactHubSDKTests.swift; sourceTree = "<group>"; };
+		B825BC362B5BD14100B47C1A /* UIKitExampleApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIKitExampleApp.xcodeproj; path = ../UIKitExampleApp/UIKitExampleApp.xcodeproj; sourceTree = "<group>"; };
+		B825BC572B5BD1F200B47C1A /* SwiftUIExampleApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftUIExampleApp.xcodeproj; path = ../SwiftUIExampleApp/SwiftUIExampleApp.xcodeproj; sourceTree = "<group>"; };
+		B825BC5E2B5BD23900B47C1A /* TransactHubSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactHubSDK.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,8 @@
 		B825BBD22B5BCD9500B47C1A = {
 			isa = PBXGroup;
 			children = (
+				B825BC572B5BD1F200B47C1A /* SwiftUIExampleApp.xcodeproj */,
+				B825BC362B5BD14100B47C1A /* UIKitExampleApp.xcodeproj */,
 				B825BBDE2B5BCD9500B47C1A /* TransactHubSDK */,
 				B825BBEA2B5BCD9500B47C1A /* TransactHubSDKTests */,
 				B825BBDD2B5BCD9500B47C1A /* Products */,
@@ -73,6 +93,7 @@
 			children = (
 				B825BBDF2B5BCD9500B47C1A /* TransactHubSDK.h */,
 				B825BBE02B5BCD9500B47C1A /* TransactHubSDK.docc */,
+				B825BC5E2B5BD23900B47C1A /* TransactHubSDK.swift */,
 			);
 			path = TransactHubSDK;
 			sourceTree = "<group>";
@@ -83,6 +104,22 @@
 				B825BBEB2B5BCD9500B47C1A /* TransactHubSDKTests.swift */,
 			);
 			path = TransactHubSDKTests;
+			sourceTree = "<group>";
+		};
+		B825BC372B5BD14100B47C1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B825BC3B2B5BD14200B47C1A /* UIKitExampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B825BC582B5BD1F200B47C1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B825BC5C2B5BD1F300B47C1A /* SwiftUIExampleApp.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +201,16 @@
 			mainGroup = B825BBD22B5BCD9500B47C1A;
 			productRefGroup = B825BBDD2B5BCD9500B47C1A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B825BC582B5BD1F200B47C1A /* Products */;
+					ProjectRef = B825BC572B5BD1F200B47C1A /* SwiftUIExampleApp.xcodeproj */;
+				},
+				{
+					ProductGroup = B825BC372B5BD14100B47C1A /* Products */;
+					ProjectRef = B825BC362B5BD14100B47C1A /* UIKitExampleApp.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B825BBDB2B5BCD9500B47C1A /* TransactHubSDK */,
@@ -171,6 +218,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B825BC3B2B5BD14200B47C1A /* UIKitExampleApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UIKitExampleApp.app;
+			remoteRef = B825BC3A2B5BD14200B47C1A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B825BC5C2B5BD1F300B47C1A /* SwiftUIExampleApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwiftUIExampleApp.app;
+			remoteRef = B825BC5B2B5BD1F300B47C1A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B825BBDA2B5BCD9500B47C1A /* Resources */ = {
@@ -194,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B825BC5F2B5BD23900B47C1A /* TransactHubSDK.swift in Sources */,
 				B825BBE12B5BCD9500B47C1A /* TransactHubSDK.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +461,7 @@
 		B825BBF42B5BCD9500B47C1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V6UWHFKBLG;
@@ -412,6 +478,7 @@
 		B825BBF52B5BCD9500B47C1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V6UWHFKBLG;
