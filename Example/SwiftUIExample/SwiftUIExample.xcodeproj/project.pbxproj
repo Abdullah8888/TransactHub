@@ -11,7 +11,23 @@
 		B825BCC02B5BD4E400B47C1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825BCBF2B5BD4E400B47C1A /* ContentView.swift */; };
 		B825BCC22B5BD4E600B47C1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B825BCC12B5BD4E600B47C1A /* Assets.xcassets */; };
 		B825BCC52B5BD4E600B47C1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B825BCC42B5BD4E600B47C1A /* Preview Assets.xcassets */; };
+		B825BCE82B5BE48900B47C1A /* TransactHubSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B825BCE72B5BE48900B47C1A /* TransactHubSDK.framework */; };
+		B825BCE92B5BE48900B47C1A /* TransactHubSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B825BCE72B5BE48900B47C1A /* TransactHubSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B825BCEA2B5BE48900B47C1A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B825BCE92B5BE48900B47C1A /* TransactHubSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B825BCBA2B5BD4E400B47C1A /* SwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +35,7 @@
 		B825BCBF2B5BD4E400B47C1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B825BCC12B5BD4E600B47C1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B825BCC42B5BD4E600B47C1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B825BCE72B5BE48900B47C1A /* TransactHubSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TransactHubSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B825BCE82B5BE48900B47C1A /* TransactHubSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +55,7 @@
 			children = (
 				B825BCBC2B5BD4E400B47C1A /* SwiftUIExample */,
 				B825BCBB2B5BD4E400B47C1A /* Products */,
+				B825BCE62B5BE48900B47C1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +86,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B825BCE62B5BE48900B47C1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B825BCE72B5BE48900B47C1A /* TransactHubSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +104,7 @@
 				B825BCB62B5BD4E400B47C1A /* Sources */,
 				B825BCB72B5BD4E400B47C1A /* Frameworks */,
 				B825BCB82B5BD4E400B47C1A /* Resources */,
+				B825BCEA2B5BE48900B47C1A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

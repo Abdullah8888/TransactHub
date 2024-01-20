@@ -24,6 +24,7 @@ import SwiftUI
         //config.delegate = context.coordinator
         config.delegate = hostView as? TransactHubCallback
         let navigationController = UINavigationController(rootViewController: transactHubStepOne)
+        navigationController.setNavigationBarHidden(true, animated: true)
         return navigationController
         
     }
