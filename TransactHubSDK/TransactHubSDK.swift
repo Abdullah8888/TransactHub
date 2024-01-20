@@ -15,7 +15,10 @@ protocol TransactHubSDKDelegate {
 }
 
 public class TransactHubSDK: TransactHubSDKDelegate {
+    
+    /// Use TransactHubConfig to setup your configuration
     public var config: TransactHubConfig?
+    
     public init() {}
     
     /// This method will be use to launch the sdk in Swiftui
@@ -27,7 +30,6 @@ public class TransactHubSDK: TransactHubSDKDelegate {
         TransactHubView(config: config!, hostView: hostView)
     }
     
-    
     /// This method will be use to launch the sdk in UIKit
     /// - Parameter presentingViewController: UIViewController
     public func launch( presentingViewController: UIViewController) {
@@ -38,6 +40,4 @@ public class TransactHubSDK: TransactHubSDKDelegate {
         navigationController.setNavigationBarHidden(true, animated: true)
         presentingViewController.present(navigationController, animated: true, completion: nil)
     }
-    
-    
 }
