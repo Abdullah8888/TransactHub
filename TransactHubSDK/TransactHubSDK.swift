@@ -19,7 +19,20 @@ public class TransactHubSDK: TransactHubSDKDelegate {
     /// Use TransactHubConfig to setup your configuration
     public var config: TransactHubConfig?
     
-    public init() {}
+    public init() {
+        print("lalalalal")
+        UIFont.registerAll(fontFileNames: Constants.fontNames, bundle: Bundle(identifier: Constants.bundleIdentifier)!)
+        
+//        UIFont.jbs_registerFont(
+//            withFilenameString: "Poppins-ExtraBold.ttf",
+//            bundle: Bundle(identifier: "com.myapp.TransactHubSDK")!
+//        )
+//
+//        UIFont.jbs_registerFont(
+//            withFilenameString: "Poppins-ExtraBoldItalic.ttf",
+//            bundle: Bundle(identifier: "com.myapp.TransactHubSDK")!
+//        )
+    }
     
     /// This method will be use to launch the sdk in Swiftui
     /// - Parameters:

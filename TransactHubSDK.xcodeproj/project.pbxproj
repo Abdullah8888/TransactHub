@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B81B0E3F2B6665290027F4FB /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81B0E382B6665290027F4FB /* Package.swift */; };
+		B81B0E402B6665290027F4FB /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81B0E382B6665290027F4FB /* Package.swift */; };
+		B81B0E412B6665290027F4FB /* TransactHubSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81B0E3D2B6665290027F4FB /* TransactHubSDK.swift */; };
+		B81B0E422B6665290027F4FB /* TransactHubSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81B0E3D2B6665290027F4FB /* TransactHubSDK.swift */; };
+		B81B0E432B6665290027F4FB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B81B0E3E2B6665290027F4FB /* README.md */; };
+		B81B0E442B6665290027F4FB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B81B0E3E2B6665290027F4FB /* README.md */; };
+		B81B0E482B6665370027F4FB /* TransactHubSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81B0E472B6665370027F4FB /* TransactHubSDKTests.swift */; };
+		B81B0E492B6665370027F4FB /* TransactHubSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81B0E472B6665370027F4FB /* TransactHubSDKTests.swift */; };
 		B825BBE12B5BCD9500B47C1A /* TransactHubSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = B825BBE02B5BCD9500B47C1A /* TransactHubSDK.docc */; };
 		B825BBE72B5BCD9500B47C1A /* TransactHubSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B825BBDC2B5BCD9500B47C1A /* TransactHubSDK.framework */; };
 		B825BBEC2B5BCD9500B47C1A /* TransactHubSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825BBEB2B5BCD9500B47C1A /* TransactHubSDKTests.swift */; };
@@ -18,6 +26,16 @@
 		B825BCDB2B5BD84B00B47C1A /* TransactHubStepTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825BCDA2B5BD84B00B47C1A /* TransactHubStepTwo.swift */; };
 		B825BCDD2B5BD85600B47C1A /* TransactHubStepThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825BCDC2B5BD85600B47C1A /* TransactHubStepThree.swift */; };
 		B825BCE02B5BDB5A00B47C1A /* TransactHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825BCDF2B5BDB5A00B47C1A /* TransactHubView.swift */; };
+		B889ACBA2B5F3742001EBA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B889ACB92B5F3742001EBA6D /* Assets.xcassets */; };
+		B889ACBB2B5F3742001EBA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B889ACB92B5F3742001EBA6D /* Assets.xcassets */; };
+		B889ACC32B5F3FBF001EBA6D /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889ACC22B5F3FBF001EBA6D /* UIFont+Extension.swift */; };
+		B889ACC42B5F3FBF001EBA6D /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889ACC22B5F3FBF001EBA6D /* UIFont+Extension.swift */; };
+		B889ACC82B5F4090001EBA6D /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B889ACC72B5F4090001EBA6D /* Poppins-ExtraBold.ttf */; };
+		B889ACC92B5F4090001EBA6D /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B889ACC72B5F4090001EBA6D /* Poppins-ExtraBold.ttf */; };
+		B889ACCC2B5F4A62001EBA6D /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B889ACCB2B5F4A62001EBA6D /* Poppins-ExtraBoldItalic.ttf */; };
+		B889ACCD2B5F4A62001EBA6D /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B889ACCB2B5F4A62001EBA6D /* Poppins-ExtraBoldItalic.ttf */; };
+		B889ACCF2B5F4C40001EBA6D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889ACCE2B5F4C40001EBA6D /* Constants.swift */; };
+		B889ACD02B5F4C40001EBA6D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B889ACCE2B5F4C40001EBA6D /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +63,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B81B0E382B6665290027F4FB /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		B81B0E3D2B6665290027F4FB /* TransactHubSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactHubSDK.swift; sourceTree = "<group>"; };
+		B81B0E3E2B6665290027F4FB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B81B0E472B6665370027F4FB /* TransactHubSDKTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactHubSDKTests.swift; sourceTree = "<group>"; };
 		B825BBDC2B5BCD9500B47C1A /* TransactHubSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TransactHubSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B825BBDF2B5BCD9500B47C1A /* TransactHubSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransactHubSDK.h; sourceTree = "<group>"; };
 		B825BBE02B5BCD9500B47C1A /* TransactHubSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TransactHubSDK.docc; sourceTree = "<group>"; };
@@ -59,6 +81,12 @@
 		B825BCDA2B5BD84B00B47C1A /* TransactHubStepTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactHubStepTwo.swift; sourceTree = "<group>"; };
 		B825BCDC2B5BD85600B47C1A /* TransactHubStepThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactHubStepThree.swift; sourceTree = "<group>"; };
 		B825BCDF2B5BDB5A00B47C1A /* TransactHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactHubView.swift; sourceTree = "<group>"; };
+		B889ACB92B5F3742001EBA6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B889ACC22B5F3FBF001EBA6D /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		B889ACC72B5F4090001EBA6D /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B889ACCA2B5F482D001EBA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B889ACCB2B5F4A62001EBA6D /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		B889ACCE2B5F4C40001EBA6D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +108,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B81B0E3B2B6665290027F4FB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B81B0E3C2B6665290027F4FB /* TransactHubSDK */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B81B0E3C2B6665290027F4FB /* TransactHubSDK */ = {
+			isa = PBXGroup;
+			children = (
+				B81B0E3D2B6665290027F4FB /* TransactHubSDK.swift */,
+			);
+			path = TransactHubSDK;
+			sourceTree = "<group>";
+		};
+		B81B0E452B6665370027F4FB /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B81B0E462B6665370027F4FB /* TransactHubSDKTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		B81B0E462B6665370027F4FB /* TransactHubSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				B81B0E472B6665370027F4FB /* TransactHubSDKTests.swift */,
+			);
+			path = TransactHubSDKTests;
+			sourceTree = "<group>";
+		};
 		B825BBD22B5BCD9500B47C1A = {
 			isa = PBXGroup;
 			children = (
+				B81B0E452B6665370027F4FB /* Tests */,
+				B81B0E382B6665290027F4FB /* Package.swift */,
+				B81B0E3E2B6665290027F4FB /* README.md */,
+				B81B0E3B2B6665290027F4FB /* Sources */,
 				B825BCCB2B5BD4E600B47C1A /* SwiftUIExample.xcodeproj */,
 				B825BCAB2B5BD4B900B47C1A /* UIKitExample.xcodeproj */,
 				B825BBDE2B5BCD9500B47C1A /* TransactHubSDK */,
@@ -103,6 +167,8 @@
 		B825BBDE2B5BCD9500B47C1A /* TransactHubSDK */ = {
 			isa = PBXGroup;
 			children = (
+				B889ACCA2B5F482D001EBA6D /* Info.plist */,
+				B889ACBC2B5F38D9001EBA6D /* Resources */,
 				B825BCDE2B5BDB2D00B47C1A /* BridgeFiles */,
 				B825BCD72B5BD7BA00B47C1A /* UI */,
 				B825BCD62B5BD6EE00B47C1A /* Callbacks */,
@@ -110,6 +176,8 @@
 				B825BBDF2B5BCD9500B47C1A /* TransactHubSDK.h */,
 				B825BBE02B5BCD9500B47C1A /* TransactHubSDK.docc */,
 				B825BC5E2B5BD23900B47C1A /* TransactHubSDK.swift */,
+				B889ACC22B5F3FBF001EBA6D /* UIFont+Extension.swift */,
+				B889ACCE2B5F4C40001EBA6D /* Constants.swift */,
 			);
 			path = TransactHubSDK;
 			sourceTree = "<group>";
@@ -170,6 +238,24 @@
 				B825BCDF2B5BDB5A00B47C1A /* TransactHubView.swift */,
 			);
 			path = BridgeFiles;
+			sourceTree = "<group>";
+		};
+		B889ACBC2B5F38D9001EBA6D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B889ACBD2B5F3999001EBA6D /* Poppins */,
+				B889ACB92B5F3742001EBA6D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B889ACBD2B5F3999001EBA6D /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				B889ACCB2B5F4A62001EBA6D /* Poppins-ExtraBoldItalic.ttf */,
+				B889ACC72B5F4090001EBA6D /* Poppins-ExtraBold.ttf */,
+			);
+			path = Poppins;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +377,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B889ACCC2B5F4A62001EBA6D /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				B889ACC82B5F4090001EBA6D /* Poppins-ExtraBold.ttf in Resources */,
+				B81B0E432B6665290027F4FB /* README.md in Resources */,
+				B889ACBA2B5F3742001EBA6D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +388,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B889ACCD2B5F4A62001EBA6D /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				B889ACC92B5F4090001EBA6D /* Poppins-ExtraBold.ttf in Resources */,
+				B81B0E442B6665290027F4FB /* README.md in Resources */,
+				B889ACBB2B5F3742001EBA6D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,8 +407,13 @@
 				B825BCDB2B5BD84B00B47C1A /* TransactHubStepTwo.swift in Sources */,
 				B825BCE02B5BDB5A00B47C1A /* TransactHubView.swift in Sources */,
 				B825BC5F2B5BD23900B47C1A /* TransactHubSDK.swift in Sources */,
+				B889ACCF2B5F4C40001EBA6D /* Constants.swift in Sources */,
 				B825BCD92B5BD7E700B47C1A /* TransactHubStepOne.swift in Sources */,
+				B889ACC32B5F3FBF001EBA6D /* UIFont+Extension.swift in Sources */,
+				B81B0E482B6665370027F4FB /* TransactHubSDKTests.swift in Sources */,
+				B81B0E412B6665290027F4FB /* TransactHubSDK.swift in Sources */,
 				B825BBE12B5BCD9500B47C1A /* TransactHubSDK.docc in Sources */,
+				B81B0E3F2B6665290027F4FB /* Package.swift in Sources */,
 				B825BCDD2B5BD85600B47C1A /* TransactHubStepThree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,7 +422,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B81B0E402B6665290027F4FB /* Package.swift in Sources */,
+				B889ACC42B5F3FBF001EBA6D /* UIFont+Extension.swift in Sources */,
 				B825BBEC2B5BCD9500B47C1A /* TransactHubSDKTests.swift in Sources */,
+				B889ACD02B5F4C40001EBA6D /* Constants.swift in Sources */,
+				B81B0E492B6665370027F4FB /* TransactHubSDKTests.swift in Sources */,
+				B81B0E422B6665290027F4FB /* TransactHubSDK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,7 +493,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -446,7 +550,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -469,8 +573,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TransactHubSDK/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,8 +603,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TransactHubSDK/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
